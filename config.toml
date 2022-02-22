@@ -1,0 +1,21 @@
+title = "forecasting sales using the previous N quarters as an input"
+
+[owner]
+name = "ahsin shabbir"
+
+
+[data]
+data_url = "https://supchains.com/wp-content/uploads/2021/07/norway_new_car_sales_by_make1.csv"
+
+
+[models]
+[models.random_forest]
+[models.random_forest.hyperparameters]
+min_samples_leaf = 5
+max_depth = 5
+
+[models.random_forest_quantile_regressor]
+[models.random_forest_quantile_regressor.hyperparameters]
+min_samples_leaf = 5
+max_depth = 5
+
