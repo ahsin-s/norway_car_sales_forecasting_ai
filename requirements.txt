@@ -1,9 +1,11 @@
-pandas
+pandas==1.4.1
 toml
 requests
-numpy
+numpy==1.22.2
 scikit-learn==0.21.3
+tensorflow
 setuptools
 scipy
 cython
-scikit-garden
+pendulum==2.1.2
+airflow==2.5.0
